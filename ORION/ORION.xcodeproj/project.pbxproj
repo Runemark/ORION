@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B1249EA1AA29FB30067347D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1249E91AA29FB30067347D /* AppDelegate.swift */; };
+		5B1249EC1AA29FB30067347D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1249EB1AA29FB30067347D /* ViewController.swift */; };
+		5B1249EE1AA29FB30067347D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B1249ED1AA29FB30067347D /* Images.xcassets */; };
+		5B1249F11AA29FB30067347D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B1249EF1AA29FB30067347D /* Main.storyboard */; };
+		5B1249FD1AA29FB30067347D /* ORIONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1249FC1AA29FB30067347D /* ORIONTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B1249F71AA29FB30067347D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B1249DC1AA29FB30067347D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B1249E31AA29FB30067347D;
+			remoteInfo = ORION;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B1249E41AA29FB30067347D /* ORION.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ORION.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B1249E81AA29FB30067347D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B1249E91AA29FB30067347D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B1249EB1AA29FB30067347D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B1249ED1AA29FB30067347D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5B1249F01AA29FB30067347D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B1249F61AA29FB30067347D /* ORIONTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ORIONTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B1249FB1AA29FB30067347D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B1249FC1AA29FB30067347D /* ORIONTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORIONTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B1249E11AA29FB30067347D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B1249F31AA29FB30067347D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B1249DB1AA29FB30067347D = {
+			isa = PBXGroup;
+			children = (
+				5B1249E61AA29FB30067347D /* ORION */,
+				5B1249F91AA29FB30067347D /* ORIONTests */,
+				5B1249E51AA29FB30067347D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B1249E51AA29FB30067347D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B1249E41AA29FB30067347D /* ORION.app */,
+				5B1249F61AA29FB30067347D /* ORIONTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B1249E61AA29FB30067347D /* ORION */ = {
+			isa = PBXGroup;
+			children = (
+				5B1249E91AA29FB30067347D /* AppDelegate.swift */,
+				5B1249EB1AA29FB30067347D /* ViewController.swift */,
+				5B1249ED1AA29FB30067347D /* Images.xcassets */,
+				5B1249EF1AA29FB30067347D /* Main.storyboard */,
+				5B1249E71AA29FB30067347D /* Supporting Files */,
+			);
+			path = ORION;
+			sourceTree = "<group>";
+		};
+		5B1249E71AA29FB30067347D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B1249E81AA29FB30067347D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B1249F91AA29FB30067347D /* ORIONTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B1249FC1AA29FB30067347D /* ORIONTests.swift */,
+				5B1249FA1AA29FB30067347D /* Supporting Files */,
+			);
+			path = ORIONTests;
+			sourceTree = "<group>";
+		};
+		5B1249FA1AA29FB30067347D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B1249FB1AA29FB30067347D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B1249E31AA29FB30067347D /* ORION */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B124A001AA29FB30067347D /* Build configuration list for PBXNativeTarget "ORION" */;
+			buildPhases = (
+				5B1249E01AA29FB30067347D /* Sources */,
+				5B1249E11AA29FB30067347D /* Frameworks */,
+				5B1249E21AA29FB30067347D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ORION;
+			productName = ORION;
+			productReference = 5B1249E41AA29FB30067347D /* ORION.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B1249F51AA29FB30067347D /* ORIONTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B124A031AA29FB30067347D /* Build configuration list for PBXNativeTarget "ORIONTests" */;
+			buildPhases = (
+				5B1249F21AA29FB30067347D /* Sources */,
+				5B1249F31AA29FB30067347D /* Frameworks */,
+				5B1249F41AA29FB30067347D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B1249F81AA29FB30067347D /* PBXTargetDependency */,
+			);
+			name = ORIONTests;
+			productName = ORIONTests;
+			productReference = 5B1249F61AA29FB30067347D /* ORIONTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B1249DC1AA29FB30067347D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Runemark Studios";
+				TargetAttributes = {
+					5B1249E31AA29FB30067347D = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					5B1249F51AA29FB30067347D = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 5B1249E31AA29FB30067347D;
+					};
+				};
+			};
+			buildConfigurationList = 5B1249DF1AA29FB30067347D /* Build configuration list for PBXProject "ORION" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B1249DB1AA29FB30067347D;
+			productRefGroup = 5B1249E51AA29FB30067347D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B1249E31AA29FB30067347D /* ORION */,
+				5B1249F51AA29FB30067347D /* ORIONTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B1249E21AA29FB30067347D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1249EE1AA29FB30067347D /* Images.xcassets in Resources */,
+				5B1249F11AA29FB30067347D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B1249F41AA29FB30067347D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B1249E01AA29FB30067347D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1249EC1AA29FB30067347D /* ViewController.swift in Sources */,
+				5B1249EA1AA29FB30067347D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B1249F21AA29FB30067347D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1249FD1AA29FB30067347D /* ORIONTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B1249F81AA29FB30067347D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B1249E31AA29FB30067347D /* ORION */;
+			targetProxy = 5B1249F71AA29FB30067347D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B1249EF1AA29FB30067347D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B1249F01AA29FB30067347D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B1249FE1AA29FB30067347D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B1249FF1AA29FB30067347D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5B124A011AA29FB30067347D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ORION/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5B124A021AA29FB30067347D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ORION/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5B124A041AA29FB30067347D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ORIONTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ORION.app/Contents/MacOS/ORION";
+			};
+			name = Debug;
+		};
+		5B124A051AA29FB30067347D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ORIONTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ORION.app/Contents/MacOS/ORION";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B1249DF1AA29FB30067347D /* Build configuration list for PBXProject "ORION" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B1249FE1AA29FB30067347D /* Debug */,
+				5B1249FF1AA29FB30067347D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B124A001AA29FB30067347D /* Build configuration list for PBXNativeTarget "ORION" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B124A011AA29FB30067347D /* Debug */,
+				5B124A021AA29FB30067347D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B124A031AA29FB30067347D /* Build configuration list for PBXNativeTarget "ORIONTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B124A041AA29FB30067347D /* Debug */,
+				5B124A051AA29FB30067347D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B1249DC1AA29FB30067347D /* Project object */;
+}
